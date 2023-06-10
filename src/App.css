@@ -1,0 +1,131 @@
+
+body{
+  font-family: 'Tilt Prism', cursive;
+  /* background-color: beige; */
+  /* background:linear-gradient(to bottom right,beige,rgb(205, 119, 255)); */
+  background-image: url('https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url('https://cdn.pixabay.com/photo/2017/06/24/08/53/keyboard-2437085_640.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3FDbpzQbl9ZinJaejtOTgB66XE0ZjAuj6FQ&usqp=CAU');
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/1013/588/1018/cloudy-sky-wallpaper-preview.jpg);
+  background-image: url(https://www.iamarsalan.com/wp-content/uploads/2020/07/Cloudy-HD-Background-Wallpaper.jpg);
+  background-image: url(https://cdn.wallpapersafari.com/14/6/P4AwIN.jpg);
+  background-image: url(https://rare-gallery.com/uploads/posts/5315757-sky-bird-cloud-cloudy-blue-red-glow-background-hd-wallpaper-love-landscape-forest-wallpaper-sunset-summer-nature-public-domain-images.jpg);
+  background-image: url(https://i.pinimg.com/originals/f5/1c/59/f51c59c7eec653fba547510f5c9696af.jpg);
+  /* background-image: url(https://p0.pikist.com/photos/359/693/4k-wallpaper-atmosphere-cloudiness-clouds-cloudscape-cloudy-hd-wallpaper-heaven-high-low-angle-graphy.jpg); */
+  /* background-position:center; */
+  background-size: cover;
+}
+#game{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+  #keyBoard{
+  width: 956px;
+  height: 250px;
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(128, 128, 128, 0.712);
+  border-radius: 20px;
+  padding: 10px;
+  /* box-shadow: 5px 5px 10px rgb(255, 255, 255); */
+}
+.keys{
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: rgba(44, 44, 44, 0.877);
+  color: white;
+  box-shadow: 2px 2px 5px black;
+  transition: all; 
+  transition-duration: 0.3s;
+}
+input{
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+#start{
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgba(67, 0, 105, 0.849);
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+#start:hover{
+  background-color: rgb(57, 0, 80);
+}
+#time{
+  border-radius: 50px;
+  border: 1px solid;
+  font-size: 30px;
+  padding: 10px;
+  width: 40px;
+  /* background-color: rgb(23, 209, 255); */
+  /* color: azure; */
+}
+#main{
+  text-align: center;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  width: 900px;
+  height: 300px;
+  /* position: absolute;
+  top: 200px;
+  left: 300px; */
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(0, 0, 0, 0.541); */
+  /* color: whitesmoke; */
+  text-shadow: 2px 2px 4px rgb(70, 70, 70);
+}
+h1{
+  font-size: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  height: 100px;
+}
+.homebutton{
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgba(67, 0, 105, 0.849);
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  margin: 10px auto;
+  /* display: none; */
+  transition: all;
+  transition-duration: 0.5s;
+  
+}
+#result{
+  text-align: center;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  width: 900px;
+  height: 300px;
+  /* position: absolute;
+  top: 200px;
+  left: 300px; */
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(0, 0, 0, 0.541); */
+  /* color: whitesmoke; */
+  text-shadow: 2px 2px 4px rgb(70, 70, 70);
+}
